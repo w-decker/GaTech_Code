@@ -6,6 +6,16 @@ This repository contains a notebook, [gatech_code.ipynb](/gatech_code.ipynb), wh
 2. specifies the part of the project that the code was for
 3. explains what the code does line by line
 
+# Using this repo
+
+To take full advantage of this walkthrough, it is recommended that you clone this repo.
+
+```bash
+git clone https://github.com/w-decker/GaTech_Code.git
+```
+
+Specifically, `mermaid` cannot be rendered in GitHub. This is how some figures/diagrams are generated in the notebook.
+
 ### Information on the "parent" code
 
 For a detailed look at some of the code covered in [gatech_code.ipynb](/gatech_code.ipynb), please refer to the submodule in this repo, [Honors-Thesis](/Honors-Thesis/README.md).
