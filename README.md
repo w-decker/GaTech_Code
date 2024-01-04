@@ -8,7 +8,7 @@ This repository contains a notebook, [gatech_code.ipynb](/gatech_code.ipynb), wh
 
 # Using this repo
 
-To take full advantage of this walkthrough, it is recommended that you clone this repo.
+To take full advantage of this walkthrough, it is recommended that you clone this repo. I have also uploaded the notebook to Google Colab [here](https://colab.research.google.com/github/w-decker/GaTech_Code/blob/main/gatech_code.ipynb).
 
 ```bash
 git clone https://github.com/w-decker/GaTech_Code.git
