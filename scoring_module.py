@@ -196,7 +196,7 @@ class Data(object):
             score = anskey['score'][0]
         
             fn = i.split('/')[-1] # filename
-            cond = fn.split('_')[1].split('.')[0] #condition
+            cond = fn.split('_')[1] #.split('.')[0] #condition
 
             if cond == 'structured':
                 str_scores.append(score)
