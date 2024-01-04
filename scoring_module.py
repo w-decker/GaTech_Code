@@ -34,15 +34,15 @@ class Data(object):
         
         files = []
         for id in subids:
-            found= False
+            found = False
             for filename in self.files:
                 filename2 = filename.split('_')[0]
                 if id == filename2 and filename.endswith('.csv'):
                     files.append(os.path.join(self.path, filename))
                     found = True
-                    break
-                if not found:
-                    print('Looking for more files')
+                    break  # No need to continue checking if the file is found
+            if not found:
+                print(f'No files found for subject ID {id}')
         
         # return
         self.files = files
