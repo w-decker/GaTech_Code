@@ -299,9 +299,9 @@ class Stats(Data):
              # compute test
             statistic = ttest_1samp(self.scores['structured'], popmean=self.mu, alternative='greater')
 
-        elif self.test == '1samp':
+        elif self.test == 'ind':
             # compute test
-            statistic = ttest_ind(a=self.scores['structured'], b=self.scores['random'], equal_var=False, alternative='two-sided')
+            statistic = ttest_ind(a=self.scores['structured'], b=self.scores['random'], equal_var=True, alternative='greater')
 
         self.statistic=statistic
         return self
