@@ -8,13 +8,13 @@ This repository contains a notebook, [gatech_code.ipynb](/gatech_code.ipynb), wh
 
 # Using this repo
 
-To take full advantage of this walkthrough, it is recommended that you clone this repo. I have also uploaded the notebook to Google Colab [here](https://colab.research.google.com/github/w-decker/GaTech_Code/blob/main/gatech_code.ipynb).
+To take full advantage of this walkthrough, it is recommended that you clone this repo to your local disk and review it in VSCODE. `mermaid` cannot be rendered in GitHub; this is how some figures/diagrams are generated in the notebook. VSCODE has an [extension](https://marketplace.visualstudio.com/items?itemName=vstirbu.vscode-mermaid-preview) which renders inline `mermaid` code. 
 
 ```bash
 git clone https://github.com/w-decker/GaTech_Code.git
 ```
 
-Specifically, `mermaid` cannot be rendered in GitHub. This is how some figures/diagrams are generated in the notebook.
+I have also uploaded the notebook to Google Colab [here](https://colab.research.google.com/github/w-decker/GaTech_Code/blob/main/gatech_code.ipynb).
 
 ### Information on the "parent" code
 
